@@ -1,6 +1,6 @@
 package com.br.ciandt.appium
 
-/*import io.appium.java_client.MobileElement
+import io.appium.java_client.MobileElement
 import io.appium.java_client.android.AndroidDriver
 import org.openqa.selenium.remote.DesiredCapabilities
 import java.net.URL
@@ -9,6 +9,8 @@ import java.net.URL
 
 
 class CalculatorTest {
+
+    private MobileElement driver;
 
     fun main() {
         val desiredCapabilities = DesiredCapabilities ()
@@ -35,4 +37,4 @@ class CalculatorTest {
     }
 
 
-}*/
+}
